@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+.big-wraper{
+    width: 100%;
+    min-height: 730px;
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+   
+}
+h3{
+    float: left;
+    color: white;
+    font-weight: 100;
+}
+.a{
+    color: red;
+}
+ul{
+    float: right;
+    list-style: none;
+    padding-top: 10px;
+}
+li{
+    float: left;
+    margin-left: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 4px;
+    border-radius: 3px;
+}
+nav .fa{
+    float: right;
+   font-size: 25px;
+   color: white;
+   margin-top: 20px;
+   display: none;
+}
+nav{
+    position: relative;
+}
+.banner1{
+    margin-top: 50px;
+}
+.banner{
+   margin-top: 60px;
+   color: white;
+}
+.b{
+    width: 50%;
+    margin-top: 30px;
+
+}
+.b{
+ text-shadow: 10px 7px;
+}
+.b:hover{
+    transform: rotate(5deg);
+}
+.c{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.c p{
+    font-size: 16px;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.btn{
+    
+margin-top: 40px;
+
+width: 200px;
+border: 4px solid green;
+color: rgb(83, 167, 142);
+border-radius: 30px;
+
+}
+
+.second{
+    height: 600px;
+   position: relative;
+   top: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+.second h2{
+    font-size: 28px;
+    font-weight: 100;
+    color: brown;
+}
+.second p{
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+.second img{
+    border-radius: 100%;
+    border: 3px solid greenyellow;
+}
+.second .btn{
+width: 200px;
+margin-top: 30px;
+padding: 6px;
+color: white;
+margin-bottom: 40px;
+}
+/* third started */
+.third{
+    height: 600px;
+    background-color: rgb(114, 184, 169);
+    position: relative;
+    bottom: 100px;
+}
+.third1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-weight: 100;
+}
+.l{
+    font-size: 28px;
+    color: white;
+}
+#name{
+    width: 360px;
+   
+}
+#m{
+   
+    height: 200px;
+}
+
+/* end */
+/* footer start */
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: tomato;
+    position: relative;
+    bottom: 100px;
+}
+.soacial{
+    margin-top: 10px;
+    font-size: 23px;
+  
+}
+.soacial .fa{
+   color: white;
+   font-weight: bold;
+    padding-left: 20px;
+   
+}
+.footer p{
+    font-size: 20px;
+    color: yellow;
+    font-weight: 100;
+}
+
+/* media query start */
+@media only screen and (max-width:700px){
+    nav .fa{
+        display: block;
+    }
+    ul{
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+    }
+    hr{
+        margin-top: 50px;
+    }
+    .b{
+        width: 35%;
+    }
+    .c p{
+        font-size: 13px;
+        color: goldenrod;
+    }
+    .second p{
+        font-size: 12px;
+    }
+    .second h2{
+        font-size: 24px;
+    }
+    .second .btn{
+width: 180px;
+    }
+    .banner .btn{
+        margin-bottom: 40px;
+    }
+    .second{
+        margin-bottom: 300px;
+    }
+    .fd{
+      position: relative;
+      top: 40px;
+    }
+    .third{
+     position: relative;
+     top: 40px;
+    }
+    .footer{
+        margin-top: 150px;
+    }
+}
